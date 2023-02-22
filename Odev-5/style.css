@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E9ECEF;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+.color-yellow {
+    color: rgb(185, 185, 10);
+}
+.color-purple {
+    color: purple;
+}
+.list-dot-center {
+    list-style-position: inside;
+}
+
+.card-text {
+
+    min-height: 3rem;
+  }
+
+  
+.navbar a:hover, a:link {
+    color: rgb(175, 174, 174) !important;
+   }  

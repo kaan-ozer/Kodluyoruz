@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:  #E9ECEF ;
+}
+.text-center {
+    text-align: center;
+}
+.color-red {
+    color: red;
+}
+.color-purple {
+    color: purple;
+}
+.color-yellow {
+    color: rgb(185, 185, 10);
+}
+.header-nav li {
+    display: inline;
+    margin-right: 2em;
+}
+.list-dot-center {
+    list-style-position: inside;
+}

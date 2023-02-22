@@ -1,0 +1,59 @@
+body {
+  color: rgb(var(--ig-primary-text));
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: url(/Odev-6/assets/img/search-solid.svg);
+  /* CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan arama simgesini ekleyin */
+  background-repeat: no-repeat;
+  /* Ve resmin tekrar etmemesini sağlayın. */
+
+  /* background svg position: ; */
+  background-position: 35% 65%;
+  background-position-y: 3px;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #fafafa;
+}
+
+.postuserfont {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}

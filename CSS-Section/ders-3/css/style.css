@@ -1,0 +1,21 @@
+body {
+    background-color: #333333;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: sans-serif; */
+}
+
+
+h2 {
+    color:purple;
+    font-size:64px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+p {
+ 
+    font-size:30px;
+}
+ul {
+    color: blue;
+}

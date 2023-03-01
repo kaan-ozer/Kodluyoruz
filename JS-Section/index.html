@@ -128,12 +128,37 @@
 
      -->
 
-    <h2 id="info"></h2>
+    <!-- <h2 id="info"></h2>
     <h3 id="counter">100</h3>
 
     <button id="increase">Arttir</button>
-    <button id="decrease">Azalt</button>
+    <button id="decrease">Azalt</button> -->
 
+    <!-- js 25-form-islemleri -->
+    <!-- <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm" method="GET">
+            <input type="number" name="score" id="score" />
+            <button class="btn btn-success" type="submit">gonder</button>
+          </form>
+        </div>
+      </div>
+    </div> -->
+
+    <form onsubmit="handleSubmit(e)" method="POST">
+      <input
+        type="text"
+        name="username"
+        placeholder="Kullanıcı adınızı giriniz"
+        onchange="handleChange(event)"
+      /><input
+        type="password"
+        name="password"
+        placeholder="Şifrenizi giriniz."
+        onchange="handleChange(event)"
+      /><button type="submit">Giriş</button>
+    </form>
     <!-- Bootstrap JS Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -147,6 +172,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="/JS-Section/24-localstoreage-bolum-sonu-egzersizi.js"></script>
+    <script src="/JS-Section/25-form-islemleri.js"></script>
   </body>
 </html>
